@@ -1,0 +1,28 @@
+img.Good{
+    margin-left:12%;
+    width:7%;
+    height: 20%;
+}
+
+img.Dangerous{
+    margin-left:12%;
+    width:7%;
+    height: 20%;
+}
+
+#goodBoard{
+    width: 100vw;
+    height: 100vh;
+}
+
+h2{
+    margin-left:20%;
+}
+
+.team{
+    background-image: url(../src/imagies/road3.jpeg);
+    color:black;
+    background-position-y:20rem;
+    height: 120%;
+
+}

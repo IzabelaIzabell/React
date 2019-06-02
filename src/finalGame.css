@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    padding: 0
+}
+
+.places{
+    display: flex;  
+}
+
+.direction{
+    flex-direction: column;
+    width: 50vw;
+
+}
+.direction h1 {
+    text-align: center;
+}
+
+.people{
+   float :left;
+   list-style: none;
+  
+}
+.firstPlace{
+    background-image: url("imagies/cave10.jpg");
+    border-top:8px solid #4C241A;
+    width: 50vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+#secondPlace{
+    background-image: url("imagies/cave10.jpg");
+    border-top:8px solid  #4C241A;
+    width: 50vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+ul#good{
+    background-image: url("imagies/cave13.jpg");
+    border-top:8px solid  #4C241A;
+    width: 50vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#container ul.Dangerous{
+    background-image: url("imagies/cave13.jpg");
+    border-top:8px solid  #4C241A;
+    width: 50vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h3{
+    text-align: center;
+}
+
+

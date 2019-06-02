@@ -1,0 +1,57 @@
+.cell {
+  width: 8em;
+  height: 8em;
+}
+
+.nullNew{
+  font-size: 2rem;
+  width: 50%;
+  height: 30%;
+  background-color: rgba(189, 195, 199, .5);
+  text-align: center;
+  margin-top:10%;
+}
+
+.nullNew select{
+  height: 3rem;
+  width: 10rem;
+}
+
+div.nullNew#good{
+  font-size:1rem;
+  background-color: #CBE140;
+  width: 100%;
+  margin-top:0;
+  height: 100%;
+  text-align:left;
+} 
+
+div.nullNew#Dangerous{
+  font-size:1rem;
+  background-color: #CBE140;
+  width: 100%;
+  margin-top:0;
+  height: 100%;
+  text-align:left;
+}
+
+div.nullNew#Dangerous select,
+div.nullNew#good select{
+  margin-left:50%;
+  width: 6%;
+  height: 4%;
+  background-color: #CBE140;
+  color:black;
+  border:none;
+  font-size:20px;
+  transform: translateX(-50%);
+  font-family:'Wendy One';
+}
+
+div.nullNew#Dangerous h1,
+div.nullNew#good h1{
+  margin-left:50%;
+  color:#7DA21F;
+  transform: translateX(-18%);
+
+}

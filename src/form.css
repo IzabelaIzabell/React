@@ -1,0 +1,87 @@
+#root {
+    
+    height: 100vh;
+    width: 100wv;
+    background-size: contain;
+    background: url(./imagies/123456.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Wendy One';
+    overflow: hidden;
+}
+
+form{
+    margin: 0 auto;
+    margin-top:10rem;
+    background-color:white;
+    border: 5px solid white;
+    width: 30rem;
+    height: 10rem;
+    opacity: .7;
+    left:0;
+    top:0;
+}
+
+.newForm{
+    margin-top: 1rem;
+    margin-left: 30%;
+    width:40%;
+    height: 10%;
+    font-family:'Wendy One';
+}
+
+#sent:hover{
+    background-color:black;
+    color:white;
+    opacity:1;
+}
+
+.btnPlay{
+    background-color:white;
+    box-sizing: border-box;
+    margin-left:50%;
+    transform:translateX(-50%);
+    margin-top:1rem;
+    width: 30rem;
+    height: 10rem;
+    font-size:6rem;
+    opacity: .7;
+    font-family:'Wendy One';
+}
+
+.btnPlay:hover{
+    background-color:white;
+    opacity:1;
+}
+
+#playerCounter{
+    width: 100%;
+    height: 100%;
+}
+
+.modalContainer{
+    position: absolute;
+    right:0;
+    top:22%;
+    height: 40%;
+    width: 30%;
+}
+
+.modal{
+    height: 30%;
+    font-family:'Wendy One';
+    opacity:.7;
+    width: 20%;
+    
+}
+.description{
+   text-align: center;   
+   font-family:'Wendy One';
+}
+
+.checkInfo{
+    color:#61C8ED;
+    font-family:'Wendy One';
+    
+
+}

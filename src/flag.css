@@ -1,0 +1,23 @@
+.containerApi{
+    margin: 0 auto;
+    width: 20rem;
+    height: 2rem;
+    margin-top:2%;
+    text-align: center;
+}
+
+.divCointainerFlag{
+    width:100%;
+    height:10%
+}
+
+#flag{
+    display: block;
+    height: 5rem;
+    margin: auto;
+    width: 10rem;
+}
+
+#clock{
+    text-align: center;
+}

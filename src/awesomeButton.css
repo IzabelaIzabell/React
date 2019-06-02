@@ -1,0 +1,15 @@
+.awesomeButton{
+    border: 10px solid #B2D06E;
+    opacity:.6;
+    height:20%;
+    font-size: 5rem;
+    position: absolute;
+    transform:translateY(-50%) translateX(50%);
+    top:50%;
+    right: 50%;
+    width:30%;
+}
+
+
+
+   

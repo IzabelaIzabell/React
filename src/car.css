@@ -1,0 +1,17 @@
+@keyframes driveToRight{
+    to {
+        left: 100%;
+    }
+}
+
+.fastCar {
+    position: absolute;
+    left:0;
+    bottom:0;
+    z-index: 2;
+    animation: driveToRight 2.25s linear infinite;
+    animation-fill-mode: forwards;
+    transform-origin: -50% 0%;
+    width:40%;
+    height:40%
+} 
